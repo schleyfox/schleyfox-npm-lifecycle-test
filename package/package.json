@@ -1,0 +1,40 @@
+{
+  "name": "schleyfox-npm-lifecycle-test",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:schleyfox/schleyfox-npm-lifecycle-test.git"
+  },
+  "author": "Ben Hughes",
+  "scripts": {
+    "dependencies": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") dependencies\" >> scripts.log",
+    "install": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") install\" >> scripts.log",
+    "postinstall": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") postinstall\" >> scripts.log",
+    "postpack": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") postpack\" >> scripts.log",
+    "postprepare": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") postprepare\" >> scripts.log",
+    "postpublish": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") postpublish\" >> scripts.log",
+    "postrestart": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") postrestart\" >> scripts.log",
+    "poststart": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") poststart\" >> scripts.log",
+    "poststop": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") poststop\" >> scripts.log",
+    "posttest": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") posttest\" >> scripts.log",
+    "postversion": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") postversion\" >> scripts.log",
+    "preinstall": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") preinstall\" >> scripts.log",
+    "prepack": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") prepack\" >> scripts.log",
+    "prepare": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") prepare\" >> scripts.log",
+    "preprepare": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") preprepare\" >> scripts.log",
+    "prepublish": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") prepublish\" >> scripts.log",
+    "prepublishOnly": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") prepublishOnly\" >> scripts.log",
+    "prerestart": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") prerestart\" >> scripts.log",
+    "prestart": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") prestart\" >> scripts.log",
+    "prestop": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") prestop\" >> scripts.log",
+    "pretest": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") pretest\" >> scripts.log",
+    "preversion": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") preversion\" >> scripts.log",
+    "publish": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") publish\" >> scripts.log",
+    "restart": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") restart\" >> scripts.log",
+    "start": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") start\" >> scripts.log",
+    "stop": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") stop\" >> scripts.log",
+    "test": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") test\" >> scripts.log",
+    "version": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") version\" >> scripts.log"
+  }
+}
