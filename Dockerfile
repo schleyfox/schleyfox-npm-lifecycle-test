@@ -1,5 +1,6 @@
 FROM node:20-alpine
+RUN apk add --no-cache bash
+RUN apk add --no-cache git
 WORKDIR /src
 COPY . .
-RUN apk add --no-cache bash
-CMD ["bash"]
+CMD ["/src/testNpmLifecycles.sh"]

@@ -1,5 +1,5 @@
 {
-    "name": "schleyfox-npm-lifecycle-test-git",
+    "name": "schleyfox-npm-lifecycle-test-file",
     "version": "0.0.1",
     "license": "MIT",
     "repository": {
@@ -8,6 +8,6 @@
     },
     "author": "Ben Hughes",
     "dependencies": {
-        "schleyfox-npm-lifecyle-test": "file:../../package"
+        "schleyfox-npm-lifecycle-test": "file:../../package"
     }
 }

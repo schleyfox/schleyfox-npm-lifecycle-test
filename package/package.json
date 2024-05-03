@@ -7,6 +7,9 @@
     "url": "git@github.com:schleyfox/schleyfox-npm-lifecycle-test.git"
   },
   "author": "Ben Hughes",
+  "files": [
+    "package.json"
+  ],
   "scripts": {
     "dependencies": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") dependencies\" >> scripts.log",
     "install": "echo \"$(date +\"%Y-%m-%dT%H:%M:%S%z\") install\" >> scripts.log",
